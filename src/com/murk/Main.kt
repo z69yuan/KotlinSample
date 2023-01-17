@@ -1,5 +1,8 @@
 package com.murk
 
+import com.murk.annatation.apply.JvmUsage
+import com.murk.annatation.apply.MkList
+
 /**
  * main函数
  *
@@ -8,4 +11,6 @@ package com.murk
 
 fun main() {
     println("hello world")
+    MkList.doTest()
+    JvmUsage.convertToString(MkList)
 }
